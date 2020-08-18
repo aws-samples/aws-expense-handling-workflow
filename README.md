@@ -11,6 +11,7 @@ Services used are AWS Step Functions, AWS Lambda, Amazon S3, Amazon API Gateway,
 The expense handling workflow automates the process of submitting,registering and approving expenses. This automatic process is extended with a manual approval workflow in case of exceptions.
 
 The workflow is captured in the following state machine:
+
 ![Expense Handling Workflow](https://raw.githubusercontent.com/evisb/aws-expense-handling-workflow/master/images/workflow.png)
 
 The activities performed in the process are the following:
