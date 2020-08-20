@@ -12,7 +12,7 @@ The expense handling workflow automates the process of submitting,registering an
 
 The workflow is captured in the following state machine:
 
-![Expense Handling Workflow](https://raw.githubusercontent.com/evisb/aws-expense-handling-workflow/master/images/workflow.png)
+![Expense Handling Workflow](https://raw.githubusercontent.com/aws-samples/aws-expense-handling-workflow/master/images/workflow.png)
 
 The activities performed in the process are the following:
 
@@ -22,6 +22,10 @@ The activities performed in the process are the following:
 - Expenses get auto-approved if a certain monetary threshold hasn't been reached.
 - All other expenses above the threshold are forwarded for approval to a manual workflow.
 - Once the expense is either approved or rejected via a callback mechanism, the expense gets approved in the system or alternatively the submitter is notified about the rejection.
+
+## Service Mapping
+The AWS service mapping is captured in the following diagram:
+![AWS Service Mapping](https://raw.githubusercontent.com/aws-samples/aws-expense-handling-workflow/master/images/service-mapping.png)
 
 
 ## Prerequisites
